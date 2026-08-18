@@ -1,0 +1,18 @@
+# Model & data
+*.pth
+*.pt
+*.pkl
+games_data/
+*.pgn
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab / Jupyter
+.colab/

@@ -1,0 +1,8 @@
+python-chess
+torch
+torchvision
+torchaudio
+numpy
+pandas
+tqdm
+requests
