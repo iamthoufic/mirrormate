@@ -204,16 +204,6 @@ But for a semester project that had to be built, trained, and presented in limit
 
 ---
 
-## Future Ideas (if I continue this)
-
-- Add BatchNorm / residual connections
-- Train a proper policy + value network
-- Add Monte-Carlo Tree Search on top of the policy
-- Make a fully responsive web version (outside Colab)
-- Train separate models for different time controls / openings
-
----
-
 ## License
 
 This project is for educational purposes.  
