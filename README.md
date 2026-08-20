@@ -198,9 +198,11 @@ But for a semester project that had to be built, trained, and presented in limit
 
 ## Team
 
-- **Mohamed Thoufic** - Idea, model training
-- **Arun Neupane** - Data collection
-- **Nistal Gigi Thomas** - Frontend integration and some backend work
+| Name                  | Role                                              |
+|-----------------------|---------------------------------------------------|
+| Mohamed Thoufic       | Idea, model training                              |
+| Arun Neupane          | Data collection                                   |
+| Nistal Gigi Thomas    | Frontend integration and some backend work        |
 
 ---
 
