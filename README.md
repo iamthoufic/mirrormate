@@ -210,7 +210,3 @@ But for a semester project that had to be built, trained, and presented in limit
 
 This project is for educational purposes.  
 Feel free to fork it, train it on your own games, and make your own MirrorMate.
-
----
-
-Made with ♟️ and a lot of late-night coding during the summer semester.
