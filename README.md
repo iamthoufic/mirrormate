@@ -19,8 +19,8 @@ When our professor gave us complete freedom to build any Deep Learning project (
 
 I teamed up with two classmates who shared the same energy:
 
-- **Arun Neupane**
-- **Nistal Gigi Thomas**
+- [Arun Neupane](https://github.com/arunneupane332)
+- [Nistal Gigi Thomas](https://github.com/nistalthomas)
 
 We split the work cleanly:
 - Data collection & preprocessing
@@ -198,11 +198,11 @@ But for a semester project that had to be built, trained, and presented in limit
 
 ## Team
 
-| Name                  | Role                                              |
-|-----------------------|---------------------------------------------------|
-| Mohamed Thoufic       | Idea, model training                              |
-| Arun Neupane          | Data collection                                   |
-| Nistal Gigi Thomas    | Frontend integration and some backend work        |
+| Name                                                        | Role                                              |
+|-------------------------------------------------------------|---------------------------------------------------|
+| Mohamed Thoufic                                             | Idea, model training                              |
+| [Arun Neupane](https://github.com/arunneupane332)           | Data collection                                   |
+| [Nistal Gigi Thomas](https://github.com/nistalthomas)       | Frontend integration and some backend work        |
 
 ---
 
