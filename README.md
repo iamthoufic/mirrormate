@@ -200,7 +200,7 @@ But for a semester project that had to be built, trained, and presented in limit
 
 | Name                                                        | Role                                              |
 |-------------------------------------------------------------|---------------------------------------------------|
-| Mohamed Thoufic                                             | Idea, model training                              |
+| [Mohamed Thoufic](https://github.com/iamthoufic)            | Idea, model training                              |
 | [Arun Neupane](https://github.com/arunneupane332)           | Data collection                                   |
 | [Nistal Gigi Thomas](https://github.com/nistalthomas)       | Frontend integration and some backend work        |
 
