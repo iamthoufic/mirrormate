@@ -11,7 +11,7 @@ This is a personal mirror of how *I* play chess.
 ## Why I Built This
 
 I’ve been fascinated by chess since childhood.  
-In 2023 I finally started taking it seriously and created a Chess.com account. Since then I’ve played thousands of games.
+In 2023, I finally started taking it seriously and created a Chess.com account. Since then, I’ve played thousands of games.
 
 When our professor gave us complete freedom to build any Deep Learning project (and allowed AI assistance), I immediately knew what I wanted to do:
 
@@ -123,7 +123,7 @@ Key points:
 - Takes a FEN string from the board
 - Only considers legal moves (very important)
 - Multiplies the probability of the from-square and to-square
-- Returns the best move in UCI format (e.g. `e2e4`)
+- Returns the best move in UCI format (e.g., `e2e4`)
 
 ### Cell 6 – Interactive Frontend (UI)
 
@@ -189,7 +189,7 @@ Later cells in the notebook improve this UI (added manual move input, better err
 ## Personal Notes
 
 Because the model was trained purely on my games, I can instantly tell whether a prediction “feels like me” or not.  
-That was the whole point of the project - to create a **mirror** of my own playing style rather than a strong engine.
+That was the whole point of the project—to create a **mirror** of my own playing style rather than a strong engine.
 
 It is still a simple architecture (no residual blocks, no attention, no value head, no search).  
 But for a semester project that had to be built, trained, and presented in limited time, it works surprisingly well as a style imitator.
