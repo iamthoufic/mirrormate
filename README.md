@@ -1,4 +1,4 @@
-# MirrorMate – Chess Move Predictor Trained on My Own Games
+# MirrorMate - Chess Move Predictor Trained on My Own Games
 
 **MirrorMate** is my summer semester Deep Learning project.  
 I trained a convolutional neural network on **my own Chess.com games** so the model learns to play (and predict moves) in a style that looks like me.
@@ -45,25 +45,25 @@ You can freely set up any position (or start from the standard starting position
 
 ## Project Structure & Workflow
 
-### Cell 1 – Setup
+### Cell 1 - Setup
 - Installs `python-chess`, `torch`, `numpy`, etc.
 - Mounts Google Drive
 - Creates the folder `ChessBot_Project` and sets the path for the saved model (`chess_model.pth`)
 
-### Cell 2 – Download My Games
+### Cell 2 - Download My Games
 - Uses the Chess.com public API
 - Username is hardcoded as `mohamedthoufic` (my account)
 - Downloads the last few months of games (archives)
 - Stores everything in `games_data`
 
-### Cell 3 – Convert Games → Training Data
+### Cell 3 - Convert Games → Training Data
 - Parses every PGN
 - For every position:
   - Converts the board into a 12×8×8 matrix (`board_to_matrix`)
   - Records the move that was actually played (`from_square` and `to_square`)
 - Result: ~140k training positions (X, y_from, y_to)
 
-### Cell 4 – Train the Model (ChessNet)
+### Cell 4 - Train the Model (ChessNet)
 
 Architecture:
 
@@ -90,7 +90,7 @@ class ChessNet(nn.Module):
 - Trained for several epochs (8 in the final run) with Adam
 - Model is saved to Google Drive after training
 
-### Cell 5 – Prediction Backend
+### Cell 5 - Prediction Backend
 
 This cell creates the function that the frontend will call.
 
@@ -125,7 +125,7 @@ Key points:
 - Multiplies the probability of the from-square and to-square
 - Returns the best move in UCI format (e.g., `e2e4`)
 
-### Cell 6 – Interactive Frontend (UI)
+### Cell 6 - Interactive Frontend (UI)
 
 This is the visual part the user actually interacts with.
 
@@ -189,7 +189,7 @@ Later cells in the notebook improve this UI (added manual move input, better err
 ## Personal Notes
 
 Because the model was trained purely on my games, I can instantly tell whether a prediction “feels like me” or not.  
-That was the whole point of the project—to create a **mirror** of my own playing style rather than a strong engine.
+That was the whole point of the project - to create a **mirror** of my own playing style rather than a strong engine.
 
 It is still a simple architecture (no residual blocks, no attention, no value head, no search).  
 But for a semester project that had to be built, trained, and presented in limited time, it works surprisingly well as a style imitator.
